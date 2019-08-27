@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Muli:300,400,800&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'); */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.bg-one {
+  background: #040404;
+  height: 10vh;
+  transition: all 0.5s;
+}
+
+.padding-reset {
+  padding: 0;
+}
+
+/* HEADER */
+
+.wrapper {
+  /* background-color: #3549e8;
+  background: linear-gradient(45deg, #3549e8, #99206c);
+  color: #FFF; */
+}
+
+.masthead .nav-link {
+  font-family:"Roboto", sans-serif;
+  font-weight: 800;
+  color: #FFF;
+  letter-spacing: 4px;
+}
+
+.masthead .nav-link:hover {
+  color: #FF7744;
+  transition: ease 0.2s;
+}
+
+/* INTRO */
+
+#intro {
+  /* background: linear-gradient(45deg, #3549e8, #99206c); */
+  color: #FFF;
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+#intro .carousel-item {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#intro .carousel-item::before {
+  content: "";
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-item-inner {
+  text-align: center;
+  padding: 40vh;
+}
+
+.carousel-item-inner p {
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ABOUT */
+
+#about {
+  padding: 10vh 0;
+  text-align: center;
+}
+
+/* SERVICES */
+
+#services {
+  padding: 10vh 0;
+  text-align: center;
+}
+
+#services .services-item {
+  margin: 6vh 0 4vh;
+  text-align: center;
+}
+
+#services .services-item i {
+  /* background: linear-gradient(#F98924, #ED3B0F);
+  background-clip: text;
+  border-radius: 50%;
+  color: transparent; */
+  padding: 10%;
+  text-align: center;
+  font-size: 48px;
+  color: #FFF;
+  text-shadow: 0 0 1px #222;
+}
+
+
+/* CONTACT */
+#contact .contact-info {
+  padding: 4vh 0;
+}
+
+#contact .contact-info i {
+  text-shadow: 0px 0px 1px black;
+  color: #FFF;
+  margin: 2vh 0;
+  font-size: 52px;
+}
+
+
+/* FOOTER */
+
+#footer {
+  background-color: #040404;
+  padding-top: 100px;
+}

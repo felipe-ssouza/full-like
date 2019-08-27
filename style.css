@@ -127,6 +127,12 @@ html {
 
 
 /* CONTACT */
+
+#contact {
+  margin: 6vh 0 4vh;
+  text-align: center;
+}
+
 #contact .contact-info {
   padding: 4vh 0;
 }

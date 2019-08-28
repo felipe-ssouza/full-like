@@ -125,7 +125,7 @@ html {
   font-size: 48px;
   color: #FFF;
   text-shadow: 0 0 1px #222;
-  background: #EEE;
+  background: linear-gradient(45deg, #ff8858, #ff8863);
   border-radius: 50%;
 }
 

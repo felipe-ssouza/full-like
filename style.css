@@ -43,13 +43,17 @@ html {
 .masthead .nav-link {
   font-family:"Roboto", sans-serif;
   font-weight: 800;
-  color: #FFF;
+  color: #FFF !important;
   letter-spacing: 4px;
 }
 
 .masthead .nav-link:hover {
-  color: #FF7744;
+  color: #FF7744 !important;
   transition: ease 0.2s;
+}
+
+.masthead .navbar-toggler .navbar-toggler-icon {
+    
 }
 
 /* INTRO */
@@ -86,7 +90,7 @@ html {
 
 .carousel-item-inner {
   text-align: center;
-  padding: 40vh;
+  padding: 40vh 2vh;
 }
 
 .carousel-item-inner p {
@@ -154,4 +158,11 @@ html {
 #footer {
   background-color: #040404;
   padding-top: 100px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #111;
+  }
 }

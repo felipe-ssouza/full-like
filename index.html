@@ -15,12 +15,12 @@
 
       <header class="masthead">
         <div class="container ">
-          <nav class="navbar navbar-expand-lg fixed-top" >
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
             <a href="#" class="navbar-brand">
-              <img src="img/logo3.png" alt="" height="70vh">
+              <img src="img/logo3.png" alt="" height="55vh">
             </a>
             <button type="button" class="navbar-toggler" data-target="#menu" data-toggle="collapse">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon" id="menu-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
               <ul class="navbar-nav ml-auto">
@@ -48,8 +48,8 @@
 
       <section id="intro">
         <div class="container-fluid padding-reset">
-          <div class="slide" data-ride="carousel" id="carousel">
-            <div class="carousel">
+          <div class="carousel slide" data-ride="carousel" id="carousel">
+
               <div class="carousel-inner">
 
                 <div class="carousel-item active" style="background-image: url('img/business.jpg')">
@@ -72,9 +72,18 @@
                   </div>
                 </div>
 
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+
               </div>
+
             </div><!--.CAROUSEL-->
-          </div>
         </div>
       </section>
 

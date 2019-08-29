@@ -271,11 +271,12 @@
           } else {
             $(".navbar").removeClass("bg-one");
           }
-
-          if($(this).scrollTop() > 100) {
-            $(".navbar").addClass("bg-one");
-          }
         });
+
+        if($(window).scrollTop() > 100) {
+          $(".navbar").addClass("bg-one");
+        }
+        
       });
     </script>
   </body>

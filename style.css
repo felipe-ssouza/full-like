@@ -25,8 +25,8 @@ html {
 
 .bg-one {
   background: #040404;
-  height: 10vh;
-  transition: all 0.5s;
+  /* height: 10vh; */
+  transition: all 0.8s;
 }
 
 .bg-two {

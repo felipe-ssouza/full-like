@@ -9,6 +9,7 @@
   margin: 0;
   font-family: "Montserrat", sans-serif;
   outline: none;
+
 }
 
 html {
@@ -26,6 +27,12 @@ html {
   background: #040404;
   height: 10vh;
   transition: all 0.5s;
+}
+
+.bg-two {
+  background-color: #F5F5F9;
+
+
 }
 
 .padding-reset {
@@ -52,9 +59,6 @@ html {
   transition: ease 0.2s;
 }
 
-.masthead .navbar-toggler .navbar-toggler-icon {
-    
-}
 
 /* INTRO */
 
@@ -105,19 +109,30 @@ html {
   text-align: center;
 }
 
+.btn-custom {
+  background-color: #ff885e;
+  color: #FFF;
+  padding: 15px 0;
+  border-radius: 25px;
+  width: 60%;
+  border: none;
+}
 /* SERVICES */
 
 #services {
   padding: 10vh 0;
   text-align: center;
+
+
+}
+
+#services h1.heading {
+
 }
 
 #services .services-item {
   margin: 6vh 0 4vh;
   text-align: center;
-}
-
-#services .services-item .icon {
 
 }
 
@@ -128,8 +143,9 @@ html {
   width: 120px;
   font-size: 48px;
   color: #FFF;
-  text-shadow: 0 0 1px #222;
-  background: linear-gradient(45deg, #ff8858, #ff8863);
+  /* text-shadow: 0 0 1px #222; */
+  background: linear-gradient(45deg, #ff8858, #ff8860);
+
   border-radius: 50%;
 }
 
@@ -146,10 +162,16 @@ html {
 }
 
 #contact .contact-info i {
-  text-shadow: 0px 0px 1px black;
+  margin: 1vh 0;
+  padding: 10%;
+  height: 120px;
+  width: 120px;
+  font-size: 48px;
   color: #FFF;
-  margin: 2vh 0;
-  font-size: 52px;
+  /* background: linear-gradient(45deg, #ff8858, #ff8863); */
+  background-color: #F2F2F9;
+  color: #444;
+  border-radius: 50%;
 }
 
 

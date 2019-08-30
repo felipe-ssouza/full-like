@@ -1,0 +1,27 @@
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+<div class="owl-carousel clientes-carousel">
+  <img src="img/clientes/client-1.png" alt="">
+  <img src="img/clientes/client-2.png" alt="">
+  <img src="img/clientes/client-3.png" alt="">
+  <img src="img/clientes/client-4.png" alt="">
+  <img src="img/clientes/client-5.png" alt="">
+  <img src="img/clientes/client-6.png" alt="">
+  <img src="img/clientes/client-7.png" alt="">
+  <img src="img/clientes/client-8.png" alt="">
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".clientes-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 4 }
+    }
+  });
+});
+</script>

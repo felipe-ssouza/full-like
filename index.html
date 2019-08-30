@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
   </head>
@@ -87,9 +88,8 @@
         </div>
       </section>
 
-
     <!--ABOUT-->
-    <section id="about">
+    <section id="about" class="section bg-two">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-12 mt-5">
@@ -112,8 +112,33 @@
       </div>
     </section>
 
-    <!--SRVICES-->
-    <section id="services" class="bg-two">
+    <!-- CLIENTES -->
+    <section id="clientes" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <header>
+              <h1 class="heading mt-5 mb-5">CLIENTES</h1>
+            </header>
+          </div>
+          <div class="col-12">
+            <div class="owl-carousel clientes-carousel">
+              <img src="img/clientes/client-1.png" alt="">
+              <img src="img/clientes/client-2.png" alt="">
+              <img src="img/clientes/client-3.png" alt="">
+              <img src="img/clientes/client-4.png" alt="">
+              <img src="img/clientes/client-5.png" alt="">
+              <img src="img/clientes/client-6.png" alt="">
+              <img src="img/clientes/client-7.png" alt="">
+              <img src="img/clientes/client-8.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SERVICES-->
+    <section id="services" class="bg-two section">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-12 mt-5">
@@ -187,8 +212,10 @@
       </div>
     </section><!--.SERVICES-->
 
+
+
     <!-- CONTACT -->
-    <section id="contact">
+    <section id="contact" class="section">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-12 mt-5 mb-2">
@@ -263,6 +290,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script>
       $(document).ready(function() {
         $(window).scroll(function() {
@@ -277,6 +305,13 @@
           $(".navbar").addClass("bg-one");
         }
 
+        $(".clientes-carousel").owlCarousel({
+          autoplay: true,
+          dots: true,
+          loop: true,
+          responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
+          }
+        });
       });
     </script>
   </body>

@@ -31,21 +31,17 @@ html {
 
 .bg-two {
   background-color: #F5F5F9;
-
-
 }
 
 .padding-reset {
   padding: 0;
 }
 
-/* HEADER */
-
-.wrapper {
-  /* background-color: #3549e8;
-  background: linear-gradient(45deg, #3549e8, #99206c);
-  color: #FFF; */
+.section {
+  padding: 10vh 0;
 }
+
+/* HEADER */
 
 .masthead .nav-link {
   font-family:"Roboto", sans-serif;
@@ -58,7 +54,6 @@ html {
   color: #FF7744 !important;
   transition: ease 0.2s;
 }
-
 
 /* INTRO */
 
@@ -77,7 +72,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 #intro .carousel-item::before {
   content: "";
@@ -123,23 +117,17 @@ html {
   color: #ff885e;
   transition: ease 0.4s;
 }
+
 /* SERVICES */
 
 #services {
   padding: 10vh 0;
   text-align: center;
-
-
-}
-
-#services h1.heading {
-
 }
 
 #services .services-item {
   margin: 6vh 0 4vh;
   text-align: center;
-
 }
 
 #services .services-item i {
@@ -149,12 +137,9 @@ html {
   width: 120px;
   font-size: 48px;
   color: #FFF;
-  /* text-shadow: 0 0 1px #222; */
   background: linear-gradient(45deg, #ff8858, #ff8860);
-
   border-radius: 50%;
 }
-
 
 /* CONTACT */
 
@@ -180,7 +165,6 @@ html {
   border-radius: 50%;
 }
 
-
 /* FOOTER */
 
 #footer {
@@ -188,6 +172,7 @@ html {
   padding-top: 100px;
 }
 
+/** MEDIA **/
 
 @media (max-width: 768px) {
   .navbar {
